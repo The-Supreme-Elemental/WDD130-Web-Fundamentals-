@@ -49,7 +49,7 @@ h4 {
     text-decoration: none;
     transition: 0.45s;
     font-size: 18px;
-    padding: 15px;
+    padding: 15px 30px;
 
 }
 .join {
@@ -57,7 +57,7 @@ h4 {
     text-decoration: none;
     transition: 0.45s;
     font-size: 18px;
-    padding: 30px;
+    padding: 15px 30px;
 }
 
 .contact_us:hover {
@@ -84,11 +84,12 @@ h4 {
     color:darkblue;
     font-size: .8em;
     padding-bottom: 15px;
-    
+
 }
 footer {
     color: darkblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 25px 50px;
 }
 footer a {
     color: darkblue;
@@ -103,6 +104,9 @@ footer p a:hover {
 footer a:hover {
     color: black
 
+}
+footer .social img {
+    padding-top: 15px;
 }
 hero-msg h4 {
     text-align: center;
