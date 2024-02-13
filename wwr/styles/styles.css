@@ -86,7 +86,7 @@ h4 {
 
 }
 .msg p {
-    color:darkblue;
+    color: red;
     font-size: .8em;
     padding-bottom: 15px;
 
@@ -107,13 +107,13 @@ body {
 }
 
 footer {
-    color: darkblue;
+    color: red;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 25px 50px;
     margin-top: 200px;
 }
 footer a {
-    color: darkblue;
+    color: red;
     text-decoration: none;
 }
 footer p {
