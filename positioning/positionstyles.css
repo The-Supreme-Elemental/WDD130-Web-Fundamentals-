@@ -220,7 +220,7 @@
   height: 150px; 
   background-color: gold; 
   margin-top: 150px;
-  margin-left: -318px;
+  margin-left: -100%;
 } 
 .blue7 {
   width: 100%; 
@@ -232,6 +232,7 @@
 /* Activity 5 styles */ 
 .content8 {
   /* This is the parent of the activity 5 boxes. */
+  display: grid;
    height: 400px;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -247,6 +248,7 @@
   height: 250px; 
   background-color: green; 
   grid-column: 3;
+  /* grid-column: 2; */
 } 
 .yellow8 {
   width: 250px; 
@@ -264,6 +266,8 @@
   height: 250px;
   background-color: orange;
 }
+
+.con
 
 
 /* Do not make any changes below here */
