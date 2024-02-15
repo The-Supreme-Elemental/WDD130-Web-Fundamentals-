@@ -195,6 +195,75 @@
   margin-left: -500px;
   z-index: 1;
 } 
+/* Activity 5 styles */ 
+.content7 {
+  /* This is the parent of the activity 5 boxes. */
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.red7 { 
+  width: 400px; 
+  height: 300px; 
+  background-color: red; 
+} 
+.green7 { 
+  width: 200%; 
+  height: 150px; 
+  background-color: green; 
+  grid-column: 2;
+
+} 
+.yellow7 {
+  width: 200%; 
+  height: 150px; 
+  background-color: gold; 
+  margin-top: 150px;
+  margin-left: -318px;
+} 
+.blue7 {
+  width: 100%; 
+  height: 150px; 
+  background-color: blue;
+  grid-column: 1/4; 
+} 
+
+/* Activity 5 styles */ 
+.content8 {
+  /* This is the parent of the activity 5 boxes. */
+   height: 400px;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.red8 { 
+  width: 250px; 
+  height: 250px; 
+  background-color: red; 
+
+} 
+.green8 { 
+  width: 250px; 
+  height: 250px; 
+  background-color: green; 
+  grid-column: 3;
+} 
+.yellow8 {
+  width: 250px; 
+  height: 250px; 
+  background-color: gold; 
+
+} 
+.blue8 {
+  width: 250px; 
+  height: 250px; 
+  background-color: blue; 
+} 
+.orange8 {
+  width: 250px;
+  height: 250px;
+  background-color: orange;
+}
 
 
 /* Do not make any changes below here */
