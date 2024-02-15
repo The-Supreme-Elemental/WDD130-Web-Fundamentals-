@@ -169,6 +169,8 @@
   width: 400px; 
   height: 200px; 
   background-color: red; 
+  margin-left: -200px;
+  z-index: 0;
 } 
 .green6 {
   width: 200px; 
@@ -176,18 +178,22 @@
   background-color: green; 
   grid-row: 1/2;
   margin-top: 400px;
+  z-index: 2;
 } 
 .yellow6 {
   width: 200px; 
   height: 400px; 
   background-color: gold; 
+  margin-top: 200px;
+  z-index: 2;
 } 
 .blue6 {
   width: 400px; 
   height: 400px; 
   background-color: blue; 
   margin-top: 100px;
-  margin-left: -700px;
+  margin-left: -500px;
+  z-index: 1;
 } 
 
 
