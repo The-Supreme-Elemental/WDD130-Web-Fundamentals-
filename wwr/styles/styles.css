@@ -23,6 +23,10 @@ nav a:hover {
     color: black;
     padding: 35px
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 ul {
     text-align: center;
     font-family: "Notable"
@@ -95,6 +99,8 @@ h4 {
 header {
     background-color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 body {
@@ -179,6 +185,8 @@ main section img {
 }
 #logo_link {
     padding-top: 35px;
+    justify-self: center;
+    align-self: center;
 }
 msg {
     line-height: 1.5em;
