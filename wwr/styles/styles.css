@@ -8,6 +8,22 @@
 
 }
 
+header {
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+body {
+    background-color: lightblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
+}
+
 nav a {
     text-align: center;
     margin: auto;
@@ -96,21 +112,6 @@ h4 {
 
 }
 
-header {
-    background-color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    display: grid;
-    grid-template-columns: 150px auto;
-}
-
-body {
-    background-color: lightblue;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
-
-}
 
 footer {
     color: darkblue;
