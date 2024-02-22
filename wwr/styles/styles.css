@@ -174,7 +174,7 @@ main section img {
 .rapids-card {
     margin: 200px 0; 
 }
-.hero_box {
+#hero_box {
     grid-column: 1/4;
     grid-row: 1/3;
 }
@@ -199,4 +199,8 @@ main section img {
 #msg {
     line-height: 1.5em;
     padding: 35px;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
