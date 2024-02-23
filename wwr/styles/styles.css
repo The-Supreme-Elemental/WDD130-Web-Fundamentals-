@@ -60,10 +60,14 @@ h4 {
 
 }
 footer {
-    color: darkblue;
+    background-color: darkblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
 footer a {
     color: darkblue;
@@ -196,12 +200,17 @@ main section img {
     line-height: 1.5em;
     padding: 35px;
 }
+/* 
+#hero-img {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+} */
 #background {
     height: 725px;
     grid-column: 1/11;
     grid-row: 4/9;
 }
-
 #oars_of_white_logo {
     width: 100px;
 }
@@ -210,14 +219,13 @@ main section img {
     justify-self: center;
     align-self: center;
 }
-
-
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
 
 }
+
 #hero_box {
     grid-column: 1/4;
     grid-row: 1/3;
@@ -228,9 +236,4 @@ main section img {
     grid-row: 1/2;
     margin-top: 100px;
 
-}
-#hero-img {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
 }
