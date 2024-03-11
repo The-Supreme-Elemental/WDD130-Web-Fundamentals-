@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Notable&family=Playfair+Display&display=swap');
 
-
+/* Home Page CSS */
 .content {
     max-width: 1600px;
     margin: auto;
@@ -253,6 +253,10 @@ main section img {
     color: white
 }
 
+/* River Page CSS */
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -297,4 +301,6 @@ main section img {
         margin-top: 25px;
     }
 }
-            
+     
+
+
