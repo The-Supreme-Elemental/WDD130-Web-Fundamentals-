@@ -254,9 +254,13 @@ main section img {
 }
 
 /* River Page CSS */
+#rivers {
 
+}
 
-
+#salmon_image {
+    size: 500px;
+}
 
 
 @media screen and (max-width: 900px) {
