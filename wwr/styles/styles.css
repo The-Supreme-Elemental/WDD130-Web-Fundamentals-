@@ -254,18 +254,31 @@ main section img {
 #footer_text{
     color: white
 }
+.invertcolor {
+    color: #ff6700;
+
+}
+.invertcolor:hover {
+    color: black;
+    transition: 3s;
+}
+
 
 /* River Page CSS */
 #rivers {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 3fr 1fr 1fr;
 }
 
 #salmon_image {
     size: 500px;
     grid-column: 3/6;
     
-;
+}
+#salmon_text {
+    background-color: grey;
+    grid-column: 3/5;
 }
 
 
