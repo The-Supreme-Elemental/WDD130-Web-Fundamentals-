@@ -37,7 +37,7 @@ nav a {
 nav a:hover {
     background-color: grey;
     color: black;
-    padding: 100px
+    padding: 2.2%
 }
 nav {
     display: flex;
@@ -257,12 +257,14 @@ main section img {
 
 /* River Page CSS */
 #rivers {
-    display: grid
-    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 #salmon_image {
-    size: 500px
+    size: 500px;
+    grid-column: 3/6;
+    
 ;
 }
 
