@@ -268,21 +268,36 @@ main section img {
 #rivers {
     text-align: center;
 }
-
+#salmon_river {
+    margin-top: 50px;
+}
 #salmon_grid {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
-#salmon_river {
-    
+#salmon_grid img {
+    grid-column: 2/6;
+    grid-row: 2/6;
+    height: 100%;
+}
+#salmon_grid p{
+    grid-column: 4/8;
+    grid-row: 3/5;
+    background-color: grey;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 25px;
+    padding: 15px;
+}
+#salmon_grid h1 {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    font-size: 2em;
 }
 #salmon_image {
 
 }
-#salmon_text {
 
-}
 
 #desolation_river {
 
