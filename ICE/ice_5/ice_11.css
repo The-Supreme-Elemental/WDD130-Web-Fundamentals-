@@ -1,24 +1,30 @@
 body {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: 100px 300px; 
     grid-template-rows: 1fr 8fr 1fr;
     max-height: 800px;
+    width: 500px;
 }
 
 .pfp {
-    grid-column: 1/2;
-    display: inline-block; 
-    position: relative; 
+    /* display: inline-block;  */
+    /* position: relative;  */
     width: 75px; 
     height: 75px; 
     overflow: hidden; 
     border-radius: 50%; 
 }
 .pfp img {
+    grid-column: 1/;
     width: auto; 
     height: 100%; 
+    max-width: 250px;
     
 }
 .name {
+    grid-column: 2/3;
     font-size: small;
+}
+.treeline_image {
+    grid-row: 2/3;
 }
