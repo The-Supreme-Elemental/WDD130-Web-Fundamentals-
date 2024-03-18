@@ -1,0 +1,24 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr 8fr 1fr;
+    max-height: 800px;
+}
+
+.pfp {
+    grid-column: 1/2;
+    display: inline-block; 
+    position: relative; 
+    width: 75px; 
+    height: 75px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+}
+.pfp img {
+    width: auto; 
+    height: 100%; 
+    
+}
+.name {
+    font-size: small;
+}
