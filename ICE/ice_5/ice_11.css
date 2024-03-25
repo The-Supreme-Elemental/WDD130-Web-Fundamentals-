@@ -1,11 +1,29 @@
 body {
-    display: grid;
-    grid-template-columns: 100px 300px; 
-    grid-template-rows: 1fr 8fr 1fr;
-    max-height: 800px;
-    width: 500px;
+    max-width: 500px;
 }
 
+.profile_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    /* padding-left: 20px; */
+}
+#profile_name {
+    font-size: large;
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+}
+.centerflex {
+    display: flex;
+    align-items: center;
+}
+.fractal {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
 .pfp {
     /* display: inline-block;  */
     /* position: relative;  */
@@ -14,17 +32,14 @@ body {
     overflow: hidden; 
     border-radius: 50%; 
 }
-.pfp img {
-    grid-column: 1/;
-    width: auto; 
-    height: 100%; 
-    max-width: 250px;
-    
+.sharing {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center
 }
-.name {
-    grid-column: 2/3;
-    font-size: small;
-}
-.treeline_image {
-    grid-row: 2/3;
+#flexy_l {
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
 }
