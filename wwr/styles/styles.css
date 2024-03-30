@@ -297,33 +297,17 @@ main section img {
 }
 
 
-
-#desolation_river {
-
-}
-
 .desolation img {
     grid-column: 3/8;
     grid-row: 2/6;
 }   
-.desolation h2 {
 
-}
+
 .desolation p {
     grid-column: 2/6;
     grid-row: 3/5;
 }
 
-#grand_canyon {
-    
-
-}
-#grand_canyon_grid {
-
-}
-#grand_canyon_grid {
-
-}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

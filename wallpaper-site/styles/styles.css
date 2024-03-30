@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #1d3450   ;
+    --secondary-color: #729b79 ;
+    --accent1-color: #bacdb0;
+    --accent2-color: #f3e8ee;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Anta";
+    --paragraph-font: "Kode Mono";
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #1d3450;  /* headlines on a white background */ 
+    --headline-color-on-color: #f3e8ee; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #1d3450; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #1d3450; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #729b79  ;
+    --nav-link-color: #1d3450;
+    --nav-background-color: #729b79;
+    --nav-hover-link-color: #bacdb0;
+    --nav-hover-background-color: #1d3450;
+  }
+
+
+
+.content {
+    max-width: 1600px;
+    margin: auto;
+    font-family: "Anta", "Kode Mono";
+}
+
+header {
+    background-color: #729b79;
+    display: flex;
+    justify-content: space-between;
+}
+header img {
+    width: 275px;
+}
+
+body {
+    background-color: #bacdb0;
+    margin: 0%;
+    padding: 0%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    gap: 100px;
+    margin-right: 100px;
+}
+nav a {
+    text-align: center;
+    color: #1d3450;
+    background-color: #729b79;
+    text-decoration: none;
+    text-wrap: nowrap;
+    padding: 5%;
+    border-radius: 100px;
+}
+nav a:hover {
+    background-color: #bacdb0;
+}
+
+#blurred-title {
+    display: grid;
+}
+#hero-img {
+    height: 700px;
+    width: 100%;
+    
+}
+
+.justify {
+    justify-self: end;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 500px 50px;
+    grid-template-rows: 100px;
+    background-color: #1d3450;
+    align-items: center;
+}
+#footer_text {
+    color: #bacdb0;
+    padding-left: 30px;
+}
+
+.social {
+    display: grid;
+    grid-column: 3/4;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center ;
+}
+.social img {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 50px;
+    height: 50px;
+}
+.social i {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    
+}
+
+/* blur styles  */
+
+  #bg, #search-bg {
+    background-image: url('/wallpaper-site/images/Decadent\ Love.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 210px;
+}
+  
+  #bg {
+    background-position: center top;
+    padding: 70px 90px 200px 90px;
+  }
+  
+  #search-container {
+    position: relative;
+  }
+  
+  #search-bg {
+    /* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 99;
+  
+    /* Pull the background 70px higher to the same place as #bg's */
+    background-position: center -70px;
+  
+    -webkit-filter: blur(10px);
+    filter: url('/media/blur.svg#blur');
+    filter: blur(10px);
+  }
+  
+  #search {
+    /* Put this on top of the blurred layer */
+    position: relative;
+    z-index: 100;
+    padding: 20px;
+    background: rgb(34,34,34); /* for IE */
+    background: rgba(34,34,34,0.75);
+  }
+  
+  @media (max-width: 600px ) {
+    #bg { padding: 10px; }
+    #search-bg { background-position: center -10px; }
+  }
+  
+  #search h2, #search h5, #search h3, #search h5 a { text-align: center; color: #fefefe; font-weight: normal; }
+  #search h2 { margin-bottom: 50px }
+  #search h5 { margin-top: 70px }
+
