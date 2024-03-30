@@ -112,14 +112,14 @@ footer {
 /* blur styles  */
 
   #bg, #search-bg {
-    background-image: url('/wallpaper-site/images/Decadent\ Love.jpg');
+    background-image: url('/wallpaper-site/images/Decadent Love.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     min-height: 210px;
 }
   
   #bg {
-    background-position: center bottom;
+    background-position: center;
     padding: 70px 90px 200px 90px;
   }
   
