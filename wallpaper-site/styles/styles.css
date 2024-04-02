@@ -28,7 +28,12 @@
 .content {
     max-width: 1600px;
     margin: auto;
-    font-family: "Anta", "Kode Mono";
+}
+h2 {
+    font-family: "Anta";
+}
+h3 {
+    font-family: "Kode Mono";
 }
 
 header {
