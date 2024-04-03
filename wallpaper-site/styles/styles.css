@@ -27,7 +27,8 @@
 
 .content {
     max-width: 1600px;
-    margin: auto;
+    margin: 0;
+    padding: 0;
 }
 h2 {
     font-family: "Anta";
@@ -40,13 +41,13 @@ header {
     background-color: var(--secondary-color);
     display: flex;
     justify-content: space-between;
-    margin: 0;
-    padding: 0%;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 header img {
     width: 275px;
-    padding: 0;
-    margin: 0;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
 }
 
 body {
