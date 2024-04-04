@@ -280,7 +280,11 @@ footer {
 
 
 /* CSS for contactus.html */
+#contactus {
+    display: flex;
+}
 
 .contactus_img img {
     height: 700px;
+    padding: 100px 
 }
