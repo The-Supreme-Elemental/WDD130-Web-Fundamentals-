@@ -178,7 +178,7 @@ footer {
     #search-bg { background-position: center -10px; }
   }
   
-  #search h2, #search h5, #search h3, #search h5 a, p { text-align: center; color: #fefefe; font-weight: normal; }
+  #search h2, #search h5, #search h3, #search h5, p a { text-align: center; color: #fefefe; font-weight: normal; }
   #search h2 { margin-bottom: 50px }
   #search h5 { margin-top: 70px }
 
@@ -276,4 +276,11 @@ footer {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+/* CSS for contactus.html */
+
+.contactus_img img {
+    height: 700px;
 }
