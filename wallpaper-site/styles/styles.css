@@ -36,6 +36,9 @@ h2 {
 h3 {
     font-family: "Kode Mono";
 }
+p {
+    font-family: "Kode Mono";
+}
 #linked-logo {
     height: 156px
 }
@@ -175,7 +178,7 @@ footer {
     #search-bg { background-position: center -10px; }
   }
   
-  #search h2, #search h5, #search h3, #search h5 a { text-align: center; color: #fefefe; font-weight: normal; }
+  #search h2, #search h5, #search h3, #search h5 a, p { text-align: center; color: #fefefe; font-weight: normal; }
   #search h2 { margin-bottom: 50px }
   #search h5 { margin-top: 70px }
 
