@@ -36,6 +36,9 @@ h2 {
 h3 {
     font-family: "Kode Mono";
 }
+#linked-logo {
+    height: 156px
+}
 
 header {
     background-color: var(--secondary-color);
@@ -48,6 +51,7 @@ header img {
     width: 275px;
     padding-bottom: 0%;
     margin-bottom: 0%;
+    height: 156px
 }
 
 body {
