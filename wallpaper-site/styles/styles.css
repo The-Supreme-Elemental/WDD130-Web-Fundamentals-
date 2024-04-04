@@ -30,6 +30,9 @@
     margin: 0;
     padding: 0;
 }
+h1 {
+    font-family: "Anta";
+}
 h2 {
     font-family: "Anta";
 }
@@ -287,4 +290,7 @@ footer {
 .contactus_img img {
     height: 700px;
     padding: 100px 
+}
+.contactus_text {
+    padding: 100px;
 }
