@@ -208,13 +208,13 @@ footer {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: calc(50% - 325px);
+  top: calc(50% - 50px);
   width: auto;
   margin-top: -22px;
   padding: 16px;
   /* margin: 50px; */
-  padding-bottom: 325px;
-  padding-top: 325px;
+  padding-bottom: 50px;
+  padding-top: 50px;
   color: white;
   font-weight: bold;
   font-size: 18px;
