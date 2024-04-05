@@ -208,10 +208,13 @@ footer {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: calc(50% - 325px);
   width: auto;
   margin-top: -22px;
   padding: 16px;
+  /* margin: 50px; */
+  padding-bottom: 325px;
+  padding-top: 325px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -289,8 +292,13 @@ footer {
 
 .contactus_img img {
     height: 700px;
-    padding: 100px 
+    padding: 100px;
+    padding-right: 50px
 }
 .contactus_text {
     padding: 100px;
+    padding-left: 50px;
+}
+.contactus_text h1, h3 {
+    color: var(--primary-color)
 }
