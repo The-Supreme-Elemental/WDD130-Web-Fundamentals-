@@ -142,7 +142,7 @@ footer {
   
   #bg {
     background-position: center;
-    height: 600px;
+    height: 700px;
     padding: 70px 90px 200px 90px;
   }
   
@@ -181,7 +181,7 @@ footer {
     #search-bg { background-position: center -10px; }
   }
   
-  #search h2, #search h5, #search h3, #search h5, p a { text-align: center; color: #fefefe; font-weight: normal; }
+  #search h2, #search h5, #search h3, #search h5, #search a, #search p { text-align: center; color: #fefefe; font-weight: normal; }
   #search h2 { margin-bottom: 50px }
   #search h5 { margin-top: 70px }
 
