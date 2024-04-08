@@ -200,7 +200,7 @@ footer {
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  /* display: none; */
   text-align: center;
 }
 
@@ -281,6 +281,11 @@ footer {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+.flower_summary {
+    /* align-content: center; */
+    display: flex;
+    padding-left: 32%;
 }
 
 
