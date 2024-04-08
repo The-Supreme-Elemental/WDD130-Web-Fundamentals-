@@ -84,6 +84,7 @@ nav a {
 }
 nav a:hover {
     background-color: var(--accent1-color);
+    transition: 0.5s;
 }
 
 #blurred-title {
@@ -202,6 +203,10 @@ footer {
 .mySlides {
   /* display: none; */
   text-align: center;
+
+}
+.text {
+    /* background-color: #1d3450; */
 }
 
 /* Next & previous buttons */
@@ -283,6 +288,9 @@ footer {
   to {opacity: 1}
 }
 .flower_summary {
+    text-align: center;
+}
+.rock_wood_summary {
     text-align: center;
 }
 
